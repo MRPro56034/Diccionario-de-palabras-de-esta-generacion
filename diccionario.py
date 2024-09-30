@@ -1,3 +1,4 @@
+
 meme_dict = {
             "CRINGE": "Algo excepcionalmente raro o embarazoso",
             "LOL": "Una respuesta común a algo gracioso",
@@ -7,8 +8,8 @@ meme_dict = {
             "CREEPY": "Aterrador, siniestro",
             "XD" : "Expresion de gracia o una cara volteada"
             }
-
-word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+while True:
+            word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
 
 if word in meme_dict.keys():
     print("El significado es:",meme_dict[word])
